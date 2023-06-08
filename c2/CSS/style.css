@@ -1,0 +1,51 @@
+
+
+
+/* Type selector */
+body {
+  color: #faf9f9;
+}
+
+/*Class selector */
+.wrapper {
+  background-color: #8d8d8e;
+  width: 80vw;
+  margin: auto;
+  background: linear-gradient( #673ab7,#e91e63  );
+  border: 2px solid rgb(9, 9, 9);
+  padding: 6px,6px;
+}
+header{
+color:black;
+  background-color: #fffefe;
+  height: auto;
+  width: 90%;
+  text-align: center;
+  border-radius: 2%;
+  margin: auto;
+}
+
+
+
+/* also tried to do something creative just uncomment next three kine to find out */
+/* .wrapper:hover{
+  background-color: rgb(188, 239, 152);
+} */
+
+/*Descendant selector */
+main p {
+  color: initial;
+}
+
+/*Pseudo-class selector */
+ol li:nth-child(odd) {
+  font-weight: bold;
+}
+
+/* adding image css */
+img {
+  height: auto;
+  width: 20%;
+  filter: brightness(70%) contrast(120%) grayscale(10%) ;
+  
+}
